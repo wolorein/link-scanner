@@ -13,6 +13,6 @@ Dependancies:
 -yara
 
 For yara rules i used Jaime Blasco's AlienvaultLabs apt1.yara and yara converter.
-The syling is made bootstrap.
+The syling is made with bootstrap.
 
 -wolo
