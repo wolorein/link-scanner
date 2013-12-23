@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div>
+	<h3>Insert the download link below.</h3>
+	<form class="navbar-form pull-left" action="/check" method="post">
+		<input class="span2" placeholder="your link goes here..." name="resp" type="link">
+		<button type="submit" class="btn btn-primary">Chekya!</button>
+	</form>
+</div>
+{% end %}
