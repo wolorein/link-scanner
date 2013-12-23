@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block body %}
+{% if resp[0] == 1 %}
+<h1><a href="{{ resp[1] }}">{{ resp[1] }}</a></h1>
+{% else %}
+<h1>{{ resp[1] }}</h1>
+{% end if %}
+{% end %}
